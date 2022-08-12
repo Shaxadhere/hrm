@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Chrome, safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Firefox */
+.selector {
+  scrollbar-width: none;
+}
+
+.badge {
+  font-size: 9px;
+  background: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
